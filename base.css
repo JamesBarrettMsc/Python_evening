@@ -3,8 +3,8 @@
 
 
 	/* *************** */
-	/* --banner_image:url('src/images/banner_image.jpg') no-repeat center center;  */
-	/* --background_image: url('src/images/Computer.gif'); */
+	--banner_image:url('src/images/banner_image.png') no-repeat center center;
+	--background_image: url('src/images/background.png');
 
 			
 	/* Colour Palette  */
@@ -12,7 +12,6 @@
 	--colour:  #f2e0bf; 
 	--accent_color: BLACK; 
 	--body_accent_color: white;
- 
 	--text_colour:BLACK; 
 
 
@@ -26,6 +25,8 @@
 
 	--active_text_colour:white; 
 	--active_background_color:gray;
+	
+
 
 
 	/* Body */
@@ -34,7 +35,7 @@
 
 	--corner_rounding: 25px ;
 	--border-style: solid;	
-	--border-width: 3px;
+	--border-width: 2px;
 
 
 
