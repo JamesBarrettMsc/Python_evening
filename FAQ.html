@@ -7,21 +7,24 @@
 </head>
 <body>
 
-<h2>FAQ</h2>
+
+<h2> Interpreted VS Compiled </h2>
 <div class="segment">
-	<h3> About Frequently asked questions ?</h3>
+
 	<p>
-		I will add answers to questions, along with additional explanations, to any questions I receive as we progress.
+		In the context of the Python programming language, the primary distinction between an interpreter and a compiler lies in how they execute code. Python is primarily an interpreted language, meaning that the code is executed line-by-line by the interpreter. It reads and executes the source code directly without first producing an intermediate machine code or file. This results in slower execution speeds compared to compiled languages, as the code is processed during runtime. On the other hand, a compiler translates the entire Python source code into machine code (or an intermediate form) before execution, which generally leads to faster execution because the code is already compiled and ready to run.
 	</p>
 
-</div>
-
-<h2> Python </h2>
-<div class="segment">
-	<h3>Interpreted VS Compiled </h3><hr>
 	<p>
-	This video explains the difference between an interpreted language and compiled language have
+		When it comes to error detection, interpreters identify errors during runtime, which allows for more flexibility but may lead to issues being discovered only when the program is running. In contrast, compilers detect all errors during the compilation phase, before the program runs, providing a comprehensive list of issues that can be fixed prior to execution. Regarding portability, Python's interpreted nature makes it highly portable, as the interpreter can run the code on various platforms without needing to recompile the source. However, compiled code is often platform-specific, requiring separate compilation for each platform, which can limit portability.
 	</p>
+
+
+	<p>
+		While Python code is generally interpreted, it is first compiled into bytecode, an intermediate form, before being executed by the Python virtual machine (PVM). This hybrid approach makes Python somewhat different from languages that are fully interpreted or fully compiled. In summary, Python’s interpreted nature offers flexibility and ease of debugging, although it sacrifices some execution speed and platform-specific optimizations that compiled languages typically provide.
+	</p>
+	
+	<hr>
 		<a class="button" href="https://youtu.be/_C5AHaS1mOA" target="_blank">Interpreted VS Compiled  </a>
 	<hr>
 
