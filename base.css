@@ -3,7 +3,7 @@
 
 
 	/* *************** */
-	/*--banner_image:url('src/images/banner_image.png') no-repeat center center; */
+	--banner_image:url('src/images/banner_image.png') no-repeat center center;
 	--background_image: url('src/images/background.png');
 
 			
